@@ -2,7 +2,7 @@
 
 ## Aim: 
 
-To create a simpple salendar application that enables the userto save events for each hour of the day. The app runs in the browser and features dynamically updatd HTML and CSS powered by jQuery.
+To create a simple calendar application that enables the userto save events for each hour of the day. The app runs in the browser and features dynamically updatd HTML and CSS powered by jQuery.
 
 ## Goals:
 
