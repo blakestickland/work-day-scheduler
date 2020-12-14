@@ -1,5 +1,4 @@
 # Work Day Scheduler
-# work-day-scheduler
 
 ## Aim: 
 
@@ -15,12 +14,20 @@ To create a simpple salendar application that enables the userto save events for
 
 * Clicking the "save" icon stores the text for that event in local storage. 
 
+
+Screenshot of the implemented Work Day Scheduler:
+
+
+![deployed work day scheduler](images/work-day-calendar-screenshot.png)
+
+Link to deployed application:
+
+https://blakestickland.github.io/work-day-scheduler/
+
+
 ## To be implemented in the future:
 
 * Each timeblock is color coded to indicate whether it is in the past, present, or the future.
 
 * When the page is refreshed, the saved activity entries persist.
-
-
-Screenshot of the implemented Work Day Scheduler:
 
