@@ -33,8 +33,9 @@ function createTimeRow(time) {
     newColActivity.attr("class", "col col-10 col-sm-8");
     newColActivity.attr("id", "activity-entry");
     let newActivityText = $("<textarea>");
+    let newActivityTextId = "Activity-" + time;
+    newActivityText.attr("id", newActivityTextId);
     newActivityText.attr("name", "Activity");
-    newActivityText.attr("id", "");
     newActivityText.attr("cols", "30");
     newActivityText.attr("rows", "3");
     newActivityText.attr("placeholder", "Enter activity here");
@@ -89,15 +90,14 @@ function createBgColor (ColActivity, index) {
     }
 
 
-    
-
-
-// TODO: Be able to enter events in the timeblocks
+// TODO: make an object that contains HOUR and ACTIVITY
+console.log();
 
 
 // TODO: Function to be able to click to save the new event
-$("#saveBtn").click(function save() {
-
+$(".saveBtn").click(function save() {
+    alert("this is save btn clicked");
+    localStorage.setItem("activity")
 });
 
 // TODO: Be able to refresh the page and the saved data persists. 
