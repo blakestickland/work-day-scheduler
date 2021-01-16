@@ -27,7 +27,7 @@ https://blakestickland.github.io/work-day-scheduler/
 
 ## To be implemented in the future:
 
-* Fix column re-sizing that occurs when screen width is between 576px and 620px.
+* Fix column re-sizing that occurs when screen width is between 576px and 611px.
 
 * Ne column to be able to clear an activity (and delete it from local storage).
 
