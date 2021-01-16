@@ -2,7 +2,7 @@
 
 ## Aim: 
 
-To create a simpple salendar application that enables the userto save events for each hour of the day. The app runs in the browser and features dynamically updatd HTML and CSS powered by jQuery.
+To create a simple calendar application that enables the userto save events for each hour of the day. The app runs in the browser and features dynamically updatd HTML and CSS powered by jQuery.
 
 ## Goals:
 
@@ -27,7 +27,7 @@ https://blakestickland.github.io/work-day-scheduler/
 
 ## To be implemented in the future:
 
-* Each timeblock is color coded to indicate whether it is in the past, present, or the future.
+* Fix column re-sizing that occurs when screen width is between 576px and 620px.
 
-* When the page is refreshed, the saved activity entries persist.
+* Ne column to be able to clear an activity (and delete it from local storage).
 
