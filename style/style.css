@@ -9,8 +9,8 @@ textarea{
   border: none;
   resize: none;
   color: #000000;
-  border-left: 1px solid black;
   padding: 10px;
+  margin-top: 1%;
 }
 
 .jumbotron {
@@ -40,25 +40,37 @@ textarea{
   border-top: 1px solid white;;
 }
 
+#activity-entry {
+  border-left: 1px solid black;
+}
+
 .hour {
   background-color: #ffffff;
   color: #000000;
   border-top: 1px dashed #000000;
   text-align: right;
+  padding: 0;
+  /* margin-right: 3px; */
+}
+
+h5 {
+  margin-top: 33%;
+  text-align: center;
+  
 }
 
 .past {
-  background-color: #d3d3d3;
+  background-color: #dad8d8;
   color: white;
 }
 
 .present {
-  background-color: #ff6961;
+  background-color: #ffb8b8;
   color: white;
 }
 
 .future {
-  background-color: #77dd77;
+  background-color: #b9f0b9;
   color: white;
 }
 
@@ -78,4 +90,19 @@ textarea{
 .saveBtn i:hover {
   font-size: 20px;
   transition: all 0.3s ease-in-out;
+}
+
+@media only screen and (max-width: 700px) {
+  h5 {
+    font-size: 1rem;
+  }
+  .hour {
+    text-align: center;
+  }
+  .display-3{
+    font-size: 2.2rem;
+  }
+  .lead {
+    font-size: 1.2rem;
+  }
 }
